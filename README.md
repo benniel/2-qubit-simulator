@@ -53,4 +53,4 @@ their respective bases is known:
 | 1     | 0   | ![alt text](https://latex.codecogs.com/gif.latex?%5Cpi/4)                  | ![alt text](https://latex.codecogs.com/gif.latex?%5Cpi/8)                | ![alt text](https://latex.codecogs.com/gif.latex?-%5Cpi/8)              | ![alt text](https://latex.codecogs.com/gif.latex?cos%5E2%28-%5Cpi/8%29%5Capprox%200.85) |
 | 1     | 1   | ![alt text](https://latex.codecogs.com/gif.latex?%5Cpi/4)                  | ![alt text](https://latex.codecogs.com/gif.latex?-%5Cpi/8)               | ![alt text](https://latex.codecogs.com/gif.latex?3%5Cpi/8)              | ![alt text](https://latex.codecogs.com/gif.latex?cos%5E2%283%5Cpi/8%29%5Capprox%200.15) |
 
-![](./Measurements.png)
+![](./Measurements.svg)
