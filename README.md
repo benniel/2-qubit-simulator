@@ -46,11 +46,11 @@ true, Alice and Bob can devise a strategy to increase their chances of winning.
 Their best strategy is to align their measurements, such that the angle between
 their respective bases is known:
 
-![](./Measurements.png)
-
 | Alice | Bob | Alice's basis rotation | Bob's basis rotation | Angle between bases | Probability of Same Result          |
 |-------|-----|------------------------|----------------------|---------------------|-------------------------------------|
 | 0     | 0   | ![alt text](https://latex.codecogs.com/gif.latex?0.0)                    | ![](https://latex.codecogs.com/gif.latex?%5Cpi/8)                | ![alt text](https://latex.codecogs.com/gif.latex?-%5Cpi/8)              | ![alt text](https://latex.codecogs.com/gif.latex?cos%5E2%28-%5Cpi/8%29%5Capprox%200.85) |
 | 0     | 1   | ![alt text](https://latex.codecogs.com/gif.latex?0.0)                    | ![alt text](https://latex.codecogs.com/gif.latex?-%5Cpi/8)               | ![alt text](https://latex.codecogs.com/gif.latex?%5Cpi/8)               | ![alt text](https://latex.codecogs.com/gif.latex?cos%5E2%28%5Cpi/8%29%5Capprox%200.85)  |
 | 1     | 0   | ![alt text](https://latex.codecogs.com/gif.latex?%5Cpi/4)                  | ![alt text](https://latex.codecogs.com/gif.latex?%5Cpi/8)                | ![alt text](https://latex.codecogs.com/gif.latex?-%5Cpi/8)              | ![alt text](https://latex.codecogs.com/gif.latex?cos%5E2%28-%5Cpi/8%29%5Capprox%200.85) |
 | 1     | 1   | ![alt text](https://latex.codecogs.com/gif.latex?%5Cpi/4)                  | ![alt text](https://latex.codecogs.com/gif.latex?-%5Cpi/8)               | ![alt text](https://latex.codecogs.com/gif.latex?3%5Cpi/8)              | ![alt text](https://latex.codecogs.com/gif.latex?cos%5E2%283%5Cpi/8%29%5Capprox%200.15) |
+
+![](./Measurements.png)
