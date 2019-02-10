@@ -20,7 +20,7 @@ and Bob have to output different results in order to win. Otherwise, they have
 to output the same result. The two qubits are known to be in the entangled
 state
 
-![](https://latex.codecogs.com/gif.latex?%7C%5CPsi%5Crangle%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%7D%7D%20%28%7C00%5Crangle%20&plus;%20%7C11%5Crangle%29)
+![](https://latex.codecogs.com/svg.latex?%5Cdpi%7B300%7D%20%5Clarge%20%7C%5CPsi%5Crangle%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%7D%7D%20%28%7C00%5Crangle%20&plus;%20%7C11%5Crangle%29)
 
 such that they will always give the same bit result when measured in the computational
 basis. Alice and Bob may devise a strategy in advance, but they are not allowed
@@ -55,10 +55,10 @@ their respective measurement bases is known:
 
 | Alice | Bob | Alice's basis rotation | Bob's basis rotation | Angle between bases | Probability of Same Result          |
 |-------|-----|------------------------|----------------------|---------------------|-------------------------------------|
-| 0     | 0   | ![alt text](https://latex.codecogs.com/gif.latex?0.0)                    | ![](https://latex.codecogs.com/gif.latex?%5Cpi/8)                | ![alt text](https://latex.codecogs.com/gif.latex?%5Cpi/8)              | ![alt text](https://latex.codecogs.com/gif.latex?cos%5E2%28%5Cpi/8%29%5Capprox%200.85) |
-| 0     | 1   | ![alt text](https://latex.codecogs.com/gif.latex?0.0)                    | ![alt text](https://latex.codecogs.com/gif.latex?-%5Cpi/8)               | ![alt text](https://latex.codecogs.com/gif.latex?-%5Cpi/8)               | ![alt text](https://latex.codecogs.com/gif.latex?cos%5E2%28-%5Cpi/8%29%5Capprox%200.85)  |
-| 1     | 0   | ![alt text](https://latex.codecogs.com/gif.latex?%5Cpi/4)                  | ![alt text](https://latex.codecogs.com/gif.latex?%5Cpi/8)                | ![alt text](https://latex.codecogs.com/gif.latex?-%5Cpi/8)              | ![alt text](https://latex.codecogs.com/gif.latex?cos%5E2%28-%5Cpi/8%29%5Capprox%200.85) |
-| 1     | 1   | ![alt text](https://latex.codecogs.com/gif.latex?%5Cpi/4)                  | ![alt text](https://latex.codecogs.com/gif.latex?-%5Cpi/8)               | ![alt text](https://latex.codecogs.com/gif.latex?-3%5Cpi/8)              | ![alt text](https://latex.codecogs.com/gif.latex?cos%5E2%28-3%5Cpi/8%29%5Capprox%200.15) |
+| 0     | 0   | ![alt text](https://latex.codecogs.com/svg.latex?0.0)                    | ![](https://latex.codecogs.com/svg.latex?%5Cpi/8)                | ![alt text](https://latex.codecogs.com/svg.latex?%5Cpi/8)              | ![alt text](https://latex.codecogs.com/svg.latex?cos%5E2%28%5Cpi/8%29%5Capprox%200.85) |
+| 0     | 1   | ![alt text](https://latex.codecogs.com/svg.latex?0.0)                    | ![alt text](https://latex.codecogs.com/svg.latex?-%5Cpi/8)               | ![alt text](https://latex.codecogs.com/svg.latex?-%5Cpi/8)               | ![alt text](https://latex.codecogs.com/svg.latex?cos%5E2%28-%5Cpi/8%29%5Capprox%200.85)  |
+| 1     | 0   | ![alt text](https://latex.codecogs.com/svg.latex?%5Cpi/4)                  | ![alt text](https://latex.codecogs.com/svg.latex?%5Cpi/8)                | ![alt text](https://latex.codecogs.com/svg.latex?-%5Cpi/8)              | ![alt text](https://latex.codecogs.com/svg.latex?cos%5E2%28-%5Cpi/8%29%5Capprox%200.85) |
+| 1     | 1   | ![alt text](https://latex.codecogs.com/svg.latex?%5Cpi/4)                  | ![alt text](https://latex.codecogs.com/svg.latex?-%5Cpi/8)               | ![alt text](https://latex.codecogs.com/svg.latex?-3%5Cpi/8)              | ![alt text](https://latex.codecogs.com/svg.latex?cos%5E2%28-3%5Cpi/8%29%5Capprox%200.15) |
 
 The following figure illustrates the case where Alice and Bob both receive classical bits with state `0`. Their goal is to output the same result, which is achieved with probability 0.85, due to the rotations of their respective qubit measurement bases.
 ![](./Measurements.svg)
