@@ -10,7 +10,7 @@ This is a small simulator for two-qubit systems.
 * Make partial measurements on 2-qubit systems in arbitrary bases.
 
 ## Example: Simulate the CHSH experiment
-Run `python3 simulator.py` to execute the experiment.
+Run `python3 chsh.py` to execute the experiment.
 ### The CHSH experiment
 #### Setup
 Alice and Bob are playing a cooperative game. They each receive one classical
